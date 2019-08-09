@@ -5,3 +5,8 @@ if country == 'Taiwan':
 		print('You may drive.')
 	else:
 		print('You can not drive.')
+elif country == 'USA':
+	if int(age) >= 16:
+		print('You may drive.')
+	else:
+		print('You can not drive.')
